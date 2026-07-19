@@ -1,0 +1,189 @@
+.navbar {
+
+    width:
+    100%;
+
+    padding:
+    18px 8%;
+
+    display:
+    flex;
+
+    justify-content:
+    space-between;
+
+    align-items:
+    center;
+
+
+    background:
+
+    linear-gradient(
+        90deg,
+        #1d3557,
+        #457b9d
+    );
+
+
+    color:
+    #ffffff;
+
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,.15);
+
+
+    position:
+    sticky;
+
+    top:
+    0;
+
+    z-index:
+    100;
+
+}
+
+
+
+/* Logo */
+
+.navbar-logo h2 {
+
+    font-size:
+    1.5rem;
+
+    font-weight:
+    900;
+
+    letter-spacing:
+    .5px;
+
+    color:
+    #ffffff;
+
+    transition:
+    all .3s ease;
+
+}
+
+
+
+.navbar-logo h2:hover {
+
+    color:
+    #f4c430;
+
+    transform:
+    scale(1.03);
+
+}
+
+
+
+
+/* Contador */
+
+.navbar-contador {
+
+    background:
+    rgba(255,255,255,.15);
+
+
+    padding:
+    10px 20px;
+
+
+    border-radius:
+    30px;
+
+
+    border:
+    1px solid rgba(255,255,255,.3);
+
+
+    backdrop-filter:
+    blur(10px);
+
+
+    transition:
+    all .3s ease;
+
+}
+
+
+
+.navbar-contador:hover {
+
+    background:
+    #f4c430;
+
+
+    transform:
+    translateY(-3px);
+
+}
+
+
+
+.navbar-contador span {
+
+    font-weight:
+    800;
+
+    color:
+    #ffffff;
+
+}
+
+
+
+.navbar-contador:hover span {
+
+    color:
+    #1d3557;
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:700px){
+
+    .navbar {
+
+        flex-direction:
+        column;
+
+        gap:
+        15px;
+
+        padding:
+        20px;
+
+    }
+
+
+    .navbar-logo h2 {
+
+        font-size:
+        1.25rem;
+
+        text-align:
+        center;
+
+    }
+
+
+    .navbar-contador {
+
+        width:
+        100%;
+
+        text-align:
+        center;
+
+    }
+
+}

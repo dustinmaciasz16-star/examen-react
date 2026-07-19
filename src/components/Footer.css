@@ -1,0 +1,96 @@
+.footer {
+
+    background:
+    linear-gradient(
+        135deg,
+        #1d3557,
+        #457b9d
+    );
+
+    color:
+    #ffffff;
+
+    padding:
+    35px 20px;
+
+    text-align:
+    center;
+
+    margin-top:
+    60px;
+
+    border-top:
+    4px solid #f4c430;
+
+}
+
+
+.footer p {
+
+    margin:
+    8px 0;
+
+    font-size:
+    0.95rem;
+
+    line-height:
+    1.6;
+
+    opacity:
+    0.9;
+
+}
+
+
+.footer p:first-child {
+
+    font-size:
+    1.1rem;
+
+    font-weight:
+    700;
+
+    color:
+    #f4c430;
+
+}
+
+
+.footer p:last-child {
+
+    color:
+    #ffffff;
+
+}
+
+
+/* Efecto sutil */
+.footer:hover {
+
+    box-shadow:
+    0 -5px 25px rgba(29,53,87,.25);
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:600px){
+
+    .footer{
+
+        padding:
+        25px 15px;
+
+    }
+
+
+    .footer p{
+
+        font-size:
+        0.85rem;
+
+    }
+
+}

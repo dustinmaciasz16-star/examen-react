@@ -1,0 +1,190 @@
+.header {
+
+    min-height:
+    420px;
+
+    display:
+    flex;
+
+    align-items:
+    center;
+
+    justify-content:
+    center;
+
+    padding:
+    60px 8%;
+
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #1d3557 0%,
+        #457b9d 50%,
+        #e63946 100%
+    );
+
+
+    color:
+    #ffffff;
+
+
+    text-align:
+    center;
+
+
+    position:
+    relative;
+
+
+    overflow:
+    hidden;
+
+}
+
+
+/* efecto decorativo */
+.header::before {
+
+    content:"";
+
+    position:absolute;
+
+    width:300px;
+
+    height:300px;
+
+    background:#f4c430;
+
+    opacity:.15;
+
+    border-radius:50%;
+
+    top:-100px;
+
+    right:-80px;
+
+}
+
+
+.header::after {
+
+    content:"";
+
+    position:absolute;
+
+    width:250px;
+
+    height:250px;
+
+    background:#ffffff;
+
+    opacity:.08;
+
+    border-radius:50%;
+
+    bottom:-100px;
+
+    left:-70px;
+
+}
+
+
+
+.header-contenido {
+
+    max-width:
+    900px;
+
+    position:
+    relative;
+
+    z-index:
+    1;
+
+}
+
+
+
+.header h1 {
+
+    font-size:
+    clamp(2rem,5vw,3.5rem);
+
+
+    font-weight:
+    900;
+
+
+    line-height:
+    1.2;
+
+
+    margin-bottom:
+    20px;
+
+
+    text-shadow:
+    0 4px 15px rgba(0,0,0,.25);
+
+}
+
+
+
+.header p {
+
+    font-size:
+    1.1rem;
+
+
+    line-height:
+    1.8;
+
+
+    max-width:
+    800px;
+
+
+    margin:
+    auto;
+
+
+    color:
+    rgba(255,255,255,.92);
+
+}
+
+
+
+/* Responsive celular */
+
+@media(max-width:700px){
+
+    .header{
+
+        min-height:
+        360px;
+
+        padding:
+        40px 20px;
+
+    }
+
+
+    .header h1{
+
+        font-size:
+        2rem;
+
+    }
+
+
+    .header p{
+
+        font-size:
+        .95rem;
+
+    }
+
+}
